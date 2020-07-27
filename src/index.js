@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import TextDisplay from './TextDisplay'
 const App = () => {
-    return <div>Hello World!!</div>
+    return (
+        <div>
+            <TextDisplay text='hello' />
+            <TextDisplay text='world'/>
+        </div>
+      );
     
 };
 
