@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TextDisplay from './TextDisplay'
+import StateCounter from './StateCounter'
+import TextDisplay from "./TextDisplay"
+
 const App = () => {
     return (
         <div>
-            <TextDisplay text='hello' />
-            <TextDisplay text='world'/>
+            <TextDisplay text='Hello worl2d!!'></TextDisplay>
+            <StateCounter></StateCounter>
         </div>
       );
     
